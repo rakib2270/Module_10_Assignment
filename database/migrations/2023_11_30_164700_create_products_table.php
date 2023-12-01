@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('name',  length:50);
             $table->float('price', );
             $table->string("description", length:500);
-            $table->integer("quantity",)->nullable;
 
 
             $table->timestamp("created_at",)->useCurrent();
